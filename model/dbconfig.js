@@ -6,4 +6,5 @@ const pool = mysql.createPool({
    password : 'root',
    database : 'application ',
 });
+// database connectivity
 module.exports = pool;
